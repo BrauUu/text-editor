@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            
+        </title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="text-view">
+                <iframe class="iframe-text-view" name="result" contenteditable="false" src="about:blank" ></iframe>               
+            </div>
+            <div class="text-edit">
+                <h1 class="title">TEXT EDITOR</h1>
+                <div class="over-toolbar">
+                    <select class="font-select">
+                        <option value="Arial">Arial</option>
+                        <option value="Arial">Calibri</option>
+                        <option value="Arial">Helvetica</option>
+                        <option value="Arial">Times New Roman</option>
+                        <option value="Futura">Futura</option>
+                    </select>
+                    <button class="icon-bold" onclick="toBold()"></button>
+                    <button class="icon-italic" onclick="toItalic()"></button>
+                    <button class="icon-underline" onclick="toUnderline()"></button>
+                    <button class="icon-ordered-list" onclick="toOrderedList()"></button>
+                    <button class="icon-unordered-list" onclick="toUnorderedList()"></button>
+                    <select class="font-size-select">
+                        <option value="6">6</option>
+                        <option value="8">8</option>
+                        <option value="12">12</option>
+                        <option value="14">14</option>
+                    </select>
+                </div>
+                <iframe class="iframe-text-editor" name="editor" contenteditable="true" src="about:blank" ></iframe>
+                <div class="under-toolbar">
+                    <button class="icon-undo" onclick="undo()"></button>
+                    <button class="icon-redo" onclick="redo()"></button>
+                </div>
+            </div>
+        </div>
+            
+        <script type="text/javascript" src="./editor.js"></script>
+    </body>
+</html>
