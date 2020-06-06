@@ -8,13 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
-   sodipodi:docname="window-minimize-solid.svg"
+   sodipodi:docname="paragraph-solid.svg"
    id="svg4"
    version="1.1"
-   viewBox="0 0 512 512"
+   viewBox="0 0 448 512"
    role="img"
-   class="svg-inline--fa fa-window-minimize fa-w-16"
-   data-icon="window-minimize"
+   class="svg-inline--fa fa-paragraph fa-w-14"
+   data-icon="paragraph"
    data-prefix="fas"
    focusable="false"
    aria-hidden="true">
@@ -37,7 +37,7 @@
      inkscape:window-y="27"
      inkscape:window-x="0"
      inkscape:cy="256"
-     inkscape:cx="58.724014"
+     inkscape:cx="26.724014"
      inkscape:zoom="1.0898438"
      showgrid="false"
      id="namedview6"
@@ -54,6 +54,6 @@
   <path
      style="fill:#161616;fill-opacity:1"
      id="path2"
-     d="M464 352H48c-26.5 0-48 21.5-48 48v32c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48v-32c0-26.5-21.5-48-48-48z"
+     d="M448 48v32a16 16 0 0 1-16 16h-48v368a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16V96h-32v368a16 16 0 0 1-16 16h-32a16 16 0 0 1-16-16V352h-32a160 160 0 0 1 0-320h240a16 16 0 0 1 16 16z"
      fill="currentColor" />
 </svg>

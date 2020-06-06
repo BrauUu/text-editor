@@ -8,13 +8,13 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (6e3e5246a0, 2020-05-07)"
-   sodipodi:docname="window-minimize-solid.svg"
+   sodipodi:docname="align-center-solid.svg"
    id="svg4"
    version="1.1"
-   viewBox="0 0 512 512"
+   viewBox="0 0 448 512"
    role="img"
-   class="svg-inline--fa fa-window-minimize fa-w-16"
-   data-icon="window-minimize"
+   class="svg-inline--fa fa-align-center fa-w-14"
+   data-icon="align-center"
    data-prefix="fas"
    focusable="false"
    aria-hidden="true">
@@ -37,7 +37,7 @@
      inkscape:window-y="27"
      inkscape:window-x="0"
      inkscape:cy="256"
-     inkscape:cx="58.724014"
+     inkscape:cx="210.23656"
      inkscape:zoom="1.0898438"
      showgrid="false"
      id="namedview6"
@@ -54,6 +54,6 @@
   <path
      style="fill:#161616;fill-opacity:1"
      id="path2"
-     d="M464 352H48c-26.5 0-48 21.5-48 48v32c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48v-32c0-26.5-21.5-48-48-48z"
+     d="M432 160H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0 256H16a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zM108.1 96h231.81A12.09 12.09 0 0 0 352 83.9V44.09A12.09 12.09 0 0 0 339.91 32H108.1A12.09 12.09 0 0 0 96 44.09V83.9A12.1 12.1 0 0 0 108.1 96zm231.81 256A12.09 12.09 0 0 0 352 339.9v-39.81A12.09 12.09 0 0 0 339.91 288H108.1A12.09 12.09 0 0 0 96 300.09v39.81a12.1 12.1 0 0 0 12.1 12.1z"
      fill="currentColor" />
 </svg>
