@@ -32,19 +32,19 @@
                         <button class="icon-subscript" onclick="toSubscript()"></button>
                     </div>
                     <div class="vertical-line"></div>
-                        <div class="align-style-div">
-                            <button class="icon-align-center" onclick="alignCenter()"></button>
-                            <button class="icon-align-left" onclick="alignLeft()"></button>
-                            <button class="icon-align-right" onclick="alignRight()"></button>
-                            <button class="icon-justify" onclick="justify()"></button>
-                        </div>
+                    <div class="align-style-div">
+                        <button class="icon-align-center" onclick="alignCenter()"></button>
+                        <button class="icon-align-left" onclick="alignLeft()"></button>
+                        <button class="icon-align-right" onclick="alignRight()"></button>
+                        <button class="icon-justify" onclick="justify()"></button>
+                    </div>
                     <div class="vertical-line"></div>
                     <div class="list-style-div">
                         <button class="icon-ordered-list" onclick="toOrderedList()"></button>
                         <button class="icon-unordered-list" onclick="toUnorderedList()"></button>
                     </div>
                     <div class="font-size-select-div">
-                        <select id="font-size-select" class="font-size-select" onchange="changeSize()">
+                        <select id="font-size-select" class="font-size-select" onchange="changeSize(this.options[this.selectedIndex].value)">
                             <option value="1">6</option>
                             <option value="2">8</option>
                             <option value="3">12</option>
@@ -53,11 +53,9 @@
                             <option value="6">18</option>
                             <option value="7">20</option>    
                         </select>
-                        <div class="increase-div">
-                            <button class="increase-font-size"></button>
-                        </div>
-                        <div class="decrease-div">
-                            <button class="decrease-font-size"></button>
+                        <div class="font-size-up-or-down-div">
+                            <button class="font-increase" onclick="changeSize()"></button>
+                            <button class="font-decrease" onclick=""></button>
                         </div>
                     </div>
                 </div>
@@ -65,8 +63,22 @@
                     <iframe id="principal-iframe" name="editor" contenteditable="true" src="about:blank" ></iframe>
                 </div>
                 <div class="under-toolbar">
-                    <button class="icon-undo" onclick="undo()"></button>
-                    <button class="icon-redo" onclick="redo()"></button>
+                    <div class="undo-and-redo-div">
+                        <button class="icon-undo" onclick="undo()"></button>
+                        <button class="icon-redo" onclick="redo()"></button>
+                    </div>
+                    <div class="vertical-line"></div>
+                    <div class="font-color-div">
+                        <input id="font-color" class="font-color" onchange="changeColor()" name="Color Picker" type="color"/>
+                        <img class="icon-palette" src="./icons/palette-solid.svg">
+                    </div>
+                    <div class="image-selector-div">
+                        <input id="image-selector" class="image-selector" onchange="uploadImage()" type="file" accept="image/png, image/jpeg"/>
+                        <img class="icon-image-selector" src="./icons/image-solid.svg">
+                    </div>
+                    <div class="submit-div">
+                        <button class="submit">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>  
