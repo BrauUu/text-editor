@@ -1,0 +1,7 @@
+@font-face{
+    font-family: Source-serif;
+    src: url(../Source-serif/SourceSerifPro-Regular.ttf)
+}
+* {
+    font-family: 'Source-serif';
+}

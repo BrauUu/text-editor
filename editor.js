@@ -1,9 +1,14 @@
 editor.document.designMode="on"
 
-function changeFontStyle(){
-    let select = document.getElementById('font-select')
-    var value = select.options[select.selectedIndex].value;
-    editor.document.execCommand('fontName', false, value)
+var cssLink = document.createElement("link");
+cssLink.rel = "stylesheet"; 
+cssLink.type = "text/css"; 
+cssLink.href = './fonts/StylesFonts/arial.css';
+frames['editor'].document.head.appendChild(cssLink);
+
+function changeFontStyle(styleSheet){
+    cssLink.href = './fonts/StylesFonts/' + styleSheet + '.css';
+    frames['editor'].document.head.appendChild(cssLink);
 }
 
 function toBold(){

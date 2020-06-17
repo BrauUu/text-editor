@@ -67,7 +67,7 @@ option{
 .font-select{
     border: none;
     background-color: #E5E5E5;
-    margin: 2% 0% 2% 10%; 
+    margin: 4% 0% 0% 10%; 
     width: 80%;
     height: 80%;
     font-size: 18px;
@@ -305,6 +305,7 @@ option{
 }
 .submit-div{
     display: flex;
+    flex-grow: 1;
     justify-content: flex-end;
     height: 100%;
 }

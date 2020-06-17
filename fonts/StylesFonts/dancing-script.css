@@ -1,0 +1,7 @@
+@font-face{
+    font-family: Dancing-script;
+    src: url(../Dancing-script/DancingScript-VariableFont_wght.ttf)
+}
+* {
+    font-family:'Dancing-script';
+}
