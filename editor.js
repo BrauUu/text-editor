@@ -77,6 +77,16 @@ function changeColor(){
     editor.document.execCommand('foreColor', false, color)
 }
 
-function uploadImage(){
-    
+function unlockModal(){
+    document.getElementById('upload-image-modal').style.display = "block";
+}
+
+function lockModal(){
+    document.getElementById('upload-image-modal').style.display = "none";
+}
+
+function uploadImage(url){
+    console.log(url)
+    lockModal();
+    editor.document.execCommand('insertImage', false, url)
 }

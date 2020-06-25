@@ -19,6 +19,40 @@ body{
     border: 2px solid #C1C1C1;
     height: 100%;
 }
+.upload-image-modal{
+    display: none;
+    position: fixed;
+    margin: 17% 20%;
+}
+.close-modal{
+    float: right;
+    border: none;
+    margin-right: 85px;
+    height: 15px;
+    background: url(./icons/close-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10px;
+}
+textarea{
+    resize: none;
+}
+.upload-image-button{
+    margin: 0% 30%;
+    font-size: 16px;
+    width: 100px;
+    height: 25px;
+    background-color: #77FFDD;
+    border: 1px solid #62d1b5;
+    border-radius: 10px;
+    color: #161616; 
+}
+.upload-image-button:hover {
+    background-color: #62d1b5 !important;
+    border: 1px solid #62d1b5 !important;
+    border-radius: 10px !important;
+    color: #DDDDDD !important;
+}
 .title{
     margin: 2% 0% 2% 13%;
     font-size: 48px;
@@ -201,13 +235,18 @@ option{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin-right: 5px;
 }
 .font-size-select{
     border:none;
     background-color: #E5E5E5;
     height: 100%;
+    width: 35%;
     font-size: 18px;
-    background-size: 10px;
+    background: url(./icons/sort-down-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15px;
 }
 .font-size-up-or-down-div{
     display: flex;
@@ -303,25 +342,5 @@ option{
     height: 24px;
     margin: 9px 0px 9px -22px;
 }
-.submit-div{
-    display: flex;
-    flex-grow: 1;
-    justify-content: flex-end;
-    height: 100%;
-}
-.submit{
-    font-size: 16px;
-    width: 100px;
-    height: 25px;
-    margin: 8px 20px 0px 0px;
-    background-color: #77FFDD;
-    border: 1px solid #62d1b5;
-    border-radius: 10px;
-    color: #DDDDDD;
-}
-.submit:hover {
-    background-color: #62d1b5 !important;
-    border: 1px solid #62d1b5 !important;
-    border-radius: 10px !important;
-    color: #DDDDDD !important;
-}
+
+
